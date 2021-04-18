@@ -952,7 +952,7 @@
     flex-direction: column;
     
   
-    /*--margin-top: 12px;*/
+    margin-top: 12px;
     margin-bottom: 40px;
   }
   
@@ -1006,6 +1006,12 @@
   .footer-social-link:hover,
   .footer-social-link:focus {
     background: var(--accent-text-color);
+  }
+
+  .footer-item:last-child {
+    flex-basis: calc(50%);
+    margin-top: 12px;
+
   }
  
 .logo-footer {
@@ -1137,8 +1143,7 @@
   top: 50%;
   left: 50%;
 
-  min-height: 528px;
-  min-width: 581px;
+  
   padding: 40px;
 
   display: flex;
@@ -1250,6 +1255,7 @@
   padding: 11px 15px;
   resize: none;
   overflow: hidden;
+  height: 120px;
 }
 
 .modal-form .textarea::placeholder {
