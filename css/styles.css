@@ -409,12 +409,12 @@
            
     cursor: pointer;
 
-    transition: color var(--animate);
+    transition: background-color var(--animate);
   }
 
   .button:hover,
   .button:focus {
-    --accent-color: #188ce8;
+    background-color: var(--bg-accent-col);
 
   }
 
